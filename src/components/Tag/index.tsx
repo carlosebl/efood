@@ -1,7 +1,9 @@
+import { TagContainer } from './styles'
+
 const Tag = () => (
-  <div>
+  <TagContainer>
     <p>Categoria</p>
-  </div>
+  </TagContainer>
 )
 
 export default Tag
