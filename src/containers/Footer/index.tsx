@@ -8,20 +8,20 @@ const Footer = () => (
   <RodapeContainer>
     <img src={logo} alt="efood" />
     <RedesSociais>
-      <a href="#">
+      <a href="#" target="_blank">
         <img src={instagram} alt="Instagram" />
       </a>
-      <a href="#">
+      <a href="#" target="_blank">
         <img src={facebook} alt="Facebook" />
       </a>
-      <a href="#">
+      <a href="#" target="_blank">
         <img src={twitter} alt="Twitter" />
       </a>
     </RedesSociais>
     <p>
       A efood é uma plataforma para divulgação de estabelecimentos, a
-      responsabilidade pela entrega, qualidade dos produtos é toda do
-      estabelecimento contratado.
+      responsabilidade pela entrega, qualidade <br />
+      dos produtos é toda do estabelecimento contratado.
     </p>
   </RodapeContainer>
 )

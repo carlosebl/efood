@@ -1,10 +1,11 @@
+import Destaque from '../../components/Destaque'
 import Restaurante from '../../components/Restaurante'
 import { Lista, ListaContainer } from './styles'
 
 const ListaRestaurantes = () => (
   <ListaContainer>
     <Lista>
-      <Restaurante />
+      <Destaque />
       <Restaurante />
       <Restaurante />
       <Restaurante />

@@ -5,6 +5,11 @@ export const RodapeContainer = styled.footer`
   text-align: center;
   background-color: ${cores.bege};
   padding: 40px 0;
+
+  p {
+    text-align: center;
+    font-size: 10px;
+  }
 `
 
 export const RedesSociais = styled.div`

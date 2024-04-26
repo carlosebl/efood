@@ -1,34 +1,36 @@
-import Tag from '../Tag'
 import {
   Botao,
-  Card,
+  CardRestaurante,
   Descricao,
   FundoCard,
   InfoRestaurante,
-  Nota
+  Nota,
+  TagRestaurante
 } from './styles'
 import estrela from '../../assets/images/estrela.svg'
 
 const Restaurante = () => (
-  <Card>
+  <CardRestaurante>
     <FundoCard>
-      <Tag />
+      <TagRestaurante>
+        <p>Italiana</p>
+      </TagRestaurante>
     </FundoCard>
     <InfoRestaurante>
-      <h3>Nome do restaurante</h3>
+      <h3>La Dolce Vita Trattoria</h3>
       <Nota>
-        <h3>4.5</h3>
-        <img src={estrela} alt="" />
+        <h3>4.6</h3>
+        <img src={estrela} alt="estrela" />
       </Nota>
     </InfoRestaurante>
     <Descricao>
-      Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis
-      frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega
-      rápida, embalagens cuidadosas e qualidade garantida. Experimente o Japão
-      sem sair do lar com nosso delivery!
+      A La Dolce Vita Trattoria leva a autêntica cozinha italiana até você!
+      Desfrute de massas caseiras, pizzas deliciosas e risotos incríveis, tudo
+      no conforto do seu lar. Entrega rápida, pratos bem embalados e sabor
+      inesquecível. Peça já!
     </Descricao>
     <Botao>Saiba mais</Botao>
-  </Card>
+  </CardRestaurante>
 )
 
 export default Restaurante

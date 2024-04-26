@@ -1,8 +1,8 @@
 import { styled } from 'styled-components'
 import { cores } from '../../styles'
-import pasta from '../../assets/images/pasta.png'
+import sushi from '../../assets/images/sushi.png'
 
-export const CardRestaurante = styled.div`
+export const CardDestaque = styled.div`
   background-color: ${cores.branco};
   margin-bottom: 48px;
   border: 1px solid ${cores.laranja};
@@ -11,12 +11,27 @@ export const CardRestaurante = styled.div`
 
 export const FundoCard = styled.div`
   height: 216px;
-  background-image: url(${pasta});
+  background-image: url(${sushi});
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
 `
+export const TagDestaque = styled.div`
+  background-color: ${cores.laranja};
+  color: ${cores.bege};
+  display: inline-block;
+  padding: 6px 4px;
+  position: absolute;
+  top: 16px;
+  right: 88px;
+
+  p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+`
+
 export const TagRestaurante = styled.div`
   background-color: ${cores.laranja};
   color: ${cores.bege};
@@ -32,7 +47,7 @@ export const TagRestaurante = styled.div`
   }
 `
 
-export const InfoRestaurante = styled.div`
+export const InfoDestaque = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
