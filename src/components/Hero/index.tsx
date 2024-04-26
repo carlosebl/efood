@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.png'
 
 const Hero = () => (
   <HeroContainer>
-    <img src={logo} alt="eFood" />
+    <img src={logo} alt="efood" />
     <h2>
       Viva experiências gastronômicas no
       <br />
