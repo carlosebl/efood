@@ -1,16 +1,19 @@
-import { PratoCard } from './styles'
+import { Link } from 'react-router-dom'
+import { BotaoItem, ItemCard } from './styles'
 import pizza from '../../assets/images/pizza.png'
 
-const Prato = () => (
-  <PratoCard>
+const Item = () => (
+  <ItemCard>
     <img src={pizza} alt="pizza" />
     <h3>Pizza Marguerita</h3>
     <p>
       A clássica Marguerita: molho de tomate suculento, mussarela derretida,
       manjericão fresco e um toque de azeite. Sabor e simplicidade!
     </p>
-    <button>Adicionar ao carrinho</button>
-  </PratoCard>
+    <BotaoItem>
+      <Link to="/prato">Adicionar ao carrinho</Link>
+    </BotaoItem>
+  </ItemCard>
 )
 
-export default Prato
+export default Item

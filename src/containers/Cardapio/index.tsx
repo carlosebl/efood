@@ -1,4 +1,4 @@
-import Prato from '../../components/Prato'
+import Item from '../../components/Item'
 import { Container } from '../../styles'
 import { CardapioContainer, CardapioLista } from './styles'
 
@@ -6,12 +6,12 @@ const Cardapio = () => (
   <Container>
     <CardapioContainer>
       <CardapioLista>
-        <Prato />
-        <Prato />
-        <Prato />
-        <Prato />
-        <Prato />
-        <Prato />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
       </CardapioLista>
     </CardapioContainer>
   </Container>

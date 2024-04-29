@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
 import { cores } from '../../styles'
 
-export const PratoCard = styled.div`
+export const ItemCard = styled.div`
   background-color: ${cores.laranja};
   color: ${cores.bege};
   padding: 8px;
@@ -24,16 +24,22 @@ export const PratoCard = styled.div`
     line-height: 22px;
     margin-bottom: 8px;
   }
+`
 
-  button {
-    background-color: ${cores.bege};
+export const BotaoItem = styled.div`
+  background-color: ${cores.bege};
+  color: ${cores.laranja};
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
     color: ${cores.laranja};
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    padding-top: 4px;
-    padding-bottom: 4px;
   }
 `

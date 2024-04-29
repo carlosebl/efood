@@ -1,5 +1,4 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Footer from './containers/Footer'
 import { GlobalCss } from './styles'
 import Home from './pages/Home'
 import Perfil from './pages/Perfil'
@@ -17,7 +16,6 @@ function App() {
     <>
       <GlobalCss />
       <RouterProvider router={rotas} />
-      <Footer />
     </>
   )
 }
