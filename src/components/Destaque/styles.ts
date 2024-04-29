@@ -71,9 +71,9 @@ export const Descricao = styled.p`
   margin: 16px 8px;
 `
 
-export const Botao = styled.button`
+export const Botao = styled.div`
+  display: inline-block;
   background-color: ${cores.laranja};
-  color: ${cores.bege};
   padding: 4px 6px;
   font-size: 14px;
   font-weight: bold;
@@ -81,4 +81,9 @@ export const Botao = styled.button`
   margin-bottom: 8px;
   border: none;
   cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: ${cores.bege};
+  }
 `

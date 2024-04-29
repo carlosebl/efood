@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import {
   Botao,
   CardDestaque,
@@ -33,7 +34,9 @@ const Destaque = () => (
       rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão
       sem sair do lar com nosso delivery!
     </Descricao>
-    <Botao>Saiba mais</Botao>
+    <Botao>
+      <Link to="perfil">Saiba mais</Link>
+    </Botao>
   </CardDestaque>
 )
 

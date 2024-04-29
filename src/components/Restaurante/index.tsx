@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import {
   Botao,
   CardRestaurante,
@@ -29,7 +30,9 @@ const Restaurante = () => (
       no conforto do seu lar. Entrega rápida, pratos bem embalados e sabor
       inesquecível. Peça já!
     </Descricao>
-    <Botao>Saiba mais</Botao>
+    <Botao>
+      <Link to="/perfil">Saiba mais</Link>
+    </Botao>
   </CardRestaurante>
 )
 

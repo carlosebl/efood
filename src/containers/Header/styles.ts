@@ -6,6 +6,8 @@ export const HeaderContainer = styled.header`
   background-image: url(${hero});
   padding: 64px 0;
   text-align: center;
+  font-size: 18px;
+  font-weight: 900;
 `
 
 export const HeaderMenu = styled.nav`
@@ -14,9 +16,6 @@ export const HeaderMenu = styled.nav`
   justify-content: space-between;
 
   a {
-    width: 256px;
-    font-size: 18px;
-    font-weight: 900;
     text-decoration: none;
     color: ${cores.laranja};
   }
