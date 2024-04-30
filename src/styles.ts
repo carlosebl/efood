@@ -28,3 +28,9 @@ export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
 `
+
+export const Overlay = styled.img`
+  position: absolute;
+  width: 100%;
+  height: 1784px;
+`

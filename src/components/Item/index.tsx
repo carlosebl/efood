@@ -11,7 +11,7 @@ const Item = () => (
       manjericão fresco e um toque de azeite. Sabor e simplicidade!
     </p>
     <BotaoItem>
-      <Link to="/prato">Adicionar ao carrinho</Link>
+      <Link to="/modal">Adicionar ao carrinho</Link>
     </BotaoItem>
   </ItemCard>
 )

@@ -9,8 +9,8 @@ export const ModalContainer = styled.div`
   display: flex;
   padding-left: 32px;
   padding-bottom: 32px;
-  margin-top: 80px;
   position: absolute;
+  top: 546px;
 `
 
 export const ModalFoto = styled.img`
