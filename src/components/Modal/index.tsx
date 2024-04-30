@@ -31,12 +31,12 @@ const Modal = () => (
           </p>
           <p>Serve: de 2 a 3 pessoas</p>
           <Botao>
-            <Link to="/">Adicionar ao carrinho - R$ 60,90</Link>
+            <Link to="/carrinho">Adicionar ao carrinho - R$ 60,90</Link>
           </Botao>
         </ModalDescricao>
         <BotaoFechar>
           <Link to="/perfil">
-            <img src={close} alt="" />
+            <img src={close} alt="X" />
           </Link>
         </BotaoFechar>
       </ModalContainer>

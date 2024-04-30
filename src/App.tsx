@@ -3,6 +3,7 @@ import { GlobalCss } from './styles'
 import Home from './pages/Home'
 import Perfil from './pages/Perfil'
 import ModalPage from './pages/Modal'
+import Carrinho from './pages/Carrinho'
 
 const rotas = createBrowserRouter([
   {
@@ -10,7 +11,8 @@ const rotas = createBrowserRouter([
     element: <Home />
   },
   { path: '/perfil', element: <Perfil /> },
-  { path: '/modal', element: <ModalPage /> }
+  { path: '/modal', element: <ModalPage /> },
+  { path: '/carrinho', element: <Carrinho /> }
 ])
 
 function App() {
