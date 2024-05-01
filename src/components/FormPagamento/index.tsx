@@ -41,7 +41,7 @@ const FormPagamento = () => (
     </CamposNumericos>
     <Botoes>
       <BotaoPagamento>
-        <Link to="/">Finalizar pagamento</Link>
+        <Link to="/confirmacao">Finalizar pagamento</Link>
       </BotaoPagamento>
       <BotaoPagamento>
         <Link to="/entrega">Voltar para a edição de endereço</Link>

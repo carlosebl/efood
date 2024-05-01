@@ -6,6 +6,7 @@ import ModalPage from './pages/Modal'
 import Carrinho from './pages/Carrinho'
 import Entrega from './pages/Entrega'
 import Pagamento from './pages/Pagamento'
+import Confirmacao from './pages/Confirmacao'
 
 const rotas = createBrowserRouter([
   {
@@ -16,7 +17,8 @@ const rotas = createBrowserRouter([
   { path: '/modal', element: <ModalPage /> },
   { path: '/carrinho', element: <Carrinho /> },
   { path: '/entrega', element: <Entrega /> },
-  { path: '/pagamento', element: <Pagamento /> }
+  { path: '/pagamento', element: <Pagamento /> },
+  { path: '/confirmacao', element: <Confirmacao /> }
 ])
 
 function App() {
