@@ -16,7 +16,7 @@ const ItemCarrinho = () => (
       <p>R$ 60,90</p>
     </DetalhesCarrinho>
     <div>
-      <Link to="/">
+      <Link to="/modal">
         <Lixeira src={lixeira} alt="" />
       </Link>
     </div>

@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Perfil from './pages/Perfil'
 import ModalPage from './pages/Modal'
 import Carrinho from './pages/Carrinho'
+import Entrega from './pages/Entrega'
 
 const rotas = createBrowserRouter([
   {
@@ -12,7 +13,8 @@ const rotas = createBrowserRouter([
   },
   { path: '/perfil', element: <Perfil /> },
   { path: '/modal', element: <ModalPage /> },
-  { path: '/carrinho', element: <Carrinho /> }
+  { path: '/carrinho', element: <Carrinho /> },
+  { path: '/entrega', element: <Entrega /> }
 ])
 
 function App() {

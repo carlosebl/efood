@@ -21,7 +21,7 @@ const Carrinho = () => (
           <h4>R$ 182,70</h4>
         </CarrinhoInfo>
         <BotaoCarrinho>
-          <Link to="/">Continuar com a entrega</Link>
+          <Link to="/entrega">Continuar com a entrega</Link>
         </BotaoCarrinho>
       </div>
     </BarraLateral>
