@@ -41,7 +41,7 @@ const FormEntrega = () => (
     </CampoTexto>
     <Botoes>
       <BotaoEntrega>
-        <Link to="/">Continuar com o pagamento</Link>
+        <Link to="/pagamento">Continuar com o pagamento</Link>
       </BotaoEntrega>
       <BotaoEntrega>
         <Link to="/carrinho">Voltar para o carrinho</Link>
