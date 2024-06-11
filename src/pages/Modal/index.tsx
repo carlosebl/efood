@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Modal from '../../components/Modal'
 import overlay from '../../assets/images/overlay.png'
 import Perfil from '../Perfil'
@@ -5,7 +6,9 @@ import { Overlay } from '../../styles'
 
 const ModalPage = () => (
   <>
-    <Overlay src={overlay} />
+    <Link to="/perfil">
+      <Overlay src={overlay} />
+    </Link>
     <Modal />
     <Perfil />
   </>
