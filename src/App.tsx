@@ -9,10 +9,7 @@ import Pagamento from './pages/Pagamento'
 import Confirmacao from './pages/Confirmacao'
 
 const rotas = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />
-  },
+  { path: '/', element: <Home /> },
   { path: '/perfil', element: <Perfil /> },
   { path: '/modal', element: <ModalPage /> },
   { path: '/carrinho', element: <Carrinho /> },
