@@ -1,19 +1,34 @@
 import styled from 'styled-components'
-import hero from '../../assets/images/hero.svg'
 
-export const HeroContainer = styled.header`
-  text-align: center;
-  width: 100%;
+import backgroundImage from '../../assets/images/header-vector.svg'
+import { Logo } from '../../styles'
+
+export const Background = styled.header`
   height: 384px;
-  background-image: url(${hero});
+  background-color: var(--headerColor);
+  background-image: url(${backgroundImage});
+  background-size: cover;
 
-  img {
-    margin-top: 64px;
+  ${Logo} {
+    margin-top: 40px;
+    margin-bottom: 138px;
   }
 
-  h2 {
-    font-size: 36px;
-    font-weight: 900;
-    margin-top: 136px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      text-align: center;
+      max-width: 539px;
+    }
   }
+`
+
+export const HeroTitle = styled.h1`
+  color: var(--mainColor);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
 `

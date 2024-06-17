@@ -1,38 +1,34 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-export const cores = {
-  amarelo: '#FFB930',
-  bege: '#FFEBD9',
-  branco: '#FFFFFF',
-  gelo: '#FFF8F2',
-  laranja: '#E66767',
-  cinza: '#4b4b4b'
+export const breakpoints = {
+  desktop: '1024px',
+  tablet: '768px'
 }
 
-export const GlobalCss = createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
+  :root {
+    --headerColor: #FFEBD9;
+    --bgColor: #FFF8F2;
+    --mainColor: #E66767;
+    --gray: #4B4B4B;
+  }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     list-style: none;
-    font-family: Roboto, sans-serif;
   }
 
-  body {
-    background: ${cores.gelo};
-    color: ${cores.laranja};
+  .container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
   }
 `
 
-export const Container = styled.div`
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-`
-
-export const Overlay = styled.img`
-  position: absolute;
-  width: 100%;
-  height: 1784px;
-  cursor: default;
+export const Logo = styled.img`
+  width: 125px;
+  height: 57px;
 `

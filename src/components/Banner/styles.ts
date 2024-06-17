@@ -1,24 +1,40 @@
 import styled from 'styled-components'
-import pastaBanner from '../../assets/images/pasta_banner.png'
-import { cores } from '../../styles'
 
-export const BannerContainer = styled.div`
-  height: 280px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${pastaBanner});
+export const BannerSubtitle = styled.h3`
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 100;
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+`
+
+export const BannerTitle = styled.h2`
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 900;
+  position: relative;
+  color: #ffffff;
+`
+
+export const BannerWrapper = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
-  color: ${cores.branco};
+  height: 280px;
+  position: relative;
 
-  h3 {
-    font-size: 32px;
-    font-weight: 100;
-    padding-top: 24px;
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
   }
 
-  h2 {
-    margin-top: 152px;
-    font-size: 32px;
-    font-weight: 900;
+  ${BannerTitle} {
+    margin-top: 180px;
+  }
+
+  ${BannerSubtitle} {
+    top: 24px;
   }
 `
